@@ -6,6 +6,7 @@ rest <- read_html("https://www.google.com/maps/search/restaurants+near+capitol+s
 
 names <- rest %>% html_elements("a")
 
+# test of the repo
 
 names <- rest %>% html_attr("jstcache")
 
